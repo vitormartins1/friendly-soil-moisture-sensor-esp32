@@ -35,7 +35,7 @@ WidgetRTC rtc;        // o real time clock do blynk nos da o horario atualizado 
 const int LEDS = 16;     //110v
 const int COOLERS = 18;  //12v
 
-// 
+// evento chamado a cada 5 segundos para atualizar o display do relogio
 void alarmTimerEvent() {
   digitalClockDisplay();  // debug do horario
   Alarm.delay(0);   // necesario para sincronizacao do alarme
