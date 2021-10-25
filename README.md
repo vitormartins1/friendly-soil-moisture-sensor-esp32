@@ -41,7 +41,8 @@ void soilTimerEvent() {
   Blynk.virtualWrite(V14, mapVasoD);
 }
 ```
-```
+
+```C++
 float capValue(float value) {
   if (value > 100) {
     return 100;
