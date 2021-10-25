@@ -2,7 +2,7 @@
 
 Exemplo de como fazer leituras amigáveis e seguras com um sensor de solo capacitivo utilizando uma esp32.
 
-'''
+```
 void soilTimerEvent() {
   vasoA = 0;
   vasoB = 0;
@@ -40,4 +40,4 @@ void soilTimerEvent() {
   Blynk.virtualWrite(V13, mapVasoC);
   Blynk.virtualWrite(V14, mapVasoD);
 }
-'''
+```
