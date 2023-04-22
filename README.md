@@ -43,7 +43,7 @@ float mapVasoC = map(vasoC, dryC, wetC, dryMap, wetMap);
 float mapVasoD = map(vasoD, dryD, wetD, dryMap, wetMap);
 ```
 
-Por fim, o valor obtido é exibido no moniroe serial.
+Por fim, o valor obtido é exibido no monitor serial.
 
 ## Montagem do circuito
 
