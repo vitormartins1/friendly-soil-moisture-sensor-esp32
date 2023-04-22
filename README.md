@@ -10,7 +10,6 @@ Esse tutorial irá mostrar como usar o sensor capacitivo de umidade do solo com 
 - Protoboard
 - Cabo USB
 
-Com certeza, vamos incluir essa explicação no tutorial.
 
 ## Como Funciona
 
